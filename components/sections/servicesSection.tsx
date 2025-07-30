@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 import { FadeInWhenVisible } from "@/components/shared/FadeInWhenVisible"
 
-export function ServicesSection() {
+export const ServicesSection = () => {
   const services = [
     {
       title: "Agenciamento",
